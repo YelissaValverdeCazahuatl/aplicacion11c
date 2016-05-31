@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Turismo atlixco</title>
+ 
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp11.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head><body onLoad="MM_preloadImages('imagenes/atlixco1.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1 align="center">Turismo de Atlixco </h1>
+  </div>
+  <div data-role="main" class="ui-content">
+ <div>
+   <div align="center"><br>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('imagen1','','imagenes/atlixco1.jpg',1)"><img src="imagenes/atlixco.jpg" width="400" height="311" id="imagen1"></a></div>
+ </div>
+  </div>
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Lugares para conocer</h2>
+    <p>Descripcion</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Comida tipica de Atlixco</h2>
+       <p>Descripcion</p>
+       </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Cultura</h2>
+      <p>Descripcion</p>
+      </a>
+    </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Pueblo Magico</h2>
+      <p>Descripcion</p>
+      </a>
+    </li>
+    
+   <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Donde se ubica</h2>
+      <p>Descripcion</p>
+      </a>
+   </li>
+      <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Datos del elaborador</h2>
+      <p>Descripcion</p>
+      </a>
+   </li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+     <h4>Turismo en Atlixco</h4>
+     </div>
+</div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>lugares para conocer</h1>
+  </div>
+ <div data-role="content" align="center">
+  <div>
+     <h2>Cerro de San Miguel</h2>
+     <h3>También conocido como Popocatica (cerro que humea) o Macuilxochitpec (cerro de las cinco flores), es el lugar en donde se realiza la fiesta máxima de Atlixco que se lleva a cabo el último domingo de septiembre y para la que se reúnen los representantes de las once regiones culturales de Puebla. Pero aunque tu visita no coincida con la fecha, el lugar te ofrece una maravillosa vista panorámica y siempre puedes visitar la Capilla de San Miguel.</h3>
+    <img src="imagenes/cerro.jpg" width="451" height="290"> </div>
+    <br>
+    <h2>Capilla de la tercera orden</h2>
+    <h3>onstruida entre los siglos XVII y XVIII por la Tercera Orden Franciscana, su portada es de un estilo barroco y el trabajo es tan delicado y excepcional que parece un encaje bordado a mano. El trabajo indígena en su construcción se hace evidente al estar su fachada decorada con argamasa. En ella también podrás observar las esculturas de San Pedro, San Pablo, San Antonio de Padua y San Francisco de Asís.</h3>
+    <img src="imagenes/capilla.jpg" width="427" height="323">
+    <br>
+    <h2>Exconvento del Carmen</h2>
+    <h3>Construido entre 1600 y 1620 lo limita una enorme barda que abarca aproximadamente dos manzanas y es un claro ejemplo del estilo barroco de la época. Cuando fueron exclaustrados los religiosos en 1853 el lugar fue convertido en rastro, luego oficinas gubernamentales, escuela (cuando tiran su torre), cárcel y cuartel para tropas federales. Ahora es conocido como el Centro Cultural del Carmen y alberga un pequeño museo arqueológico.</h3>
+    <img src="imagenes/exconvento.jpg" width="430" height="432">
+    <br>
+    <div data-role="collapsible" data-content-theme="false">
+    <h1>Visor de Atlixco</h1>
+    <!-- Start WOWSlider.com -->
+<iframe src="visor/wowslider.html" style="width:640px;height:200px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4>Turismo en Atlixco</h4>
+</div>
+</div>
+</div>
+</div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Comida tipica en Atlixco</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>Cecina</h2>
+ <img src="imagenes/cecina.jpg" width="438" height="317"> 
+ <br>
+ <h2>Mole poblano</h2>
+ <img src="imagenes/mole.jpg" width="458" height="197"> 
+ <br>
+ <h2>Barbacoa</h2>
+ <img src="imagenes/barbacoa.jpg" width="443" height="283"> 
+ </div>
+ </div>
+
+ <div data-role="collapsible" data-content-theme="false">
+ <h1>Antojitos</h1>
+ <h2>Pozole blanco</h2>
+ <img src="imagenes/pozole.jpg" width="455" height="346">
+ <br>
+ <h2>Tostadas</h2>
+ <img src="imagenes/tostada.jpg" width="441" height="375">
+ <br>
+ <h2>Pambazos</h2>
+ <img src="imagenes/pambazos.jpg" width="445" height="338">
+ <br>
+ <h2>Chalupas</h2>
+ <img src="imagenes/chalupas.jpg" width="461" height="368">
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4>Turismo en Atlixco</h4>
+ </div>
+ </div>
+</div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Cultura</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>Atlixco</h2>
+ <img src="imagenes/antiguo.jpg" width="442" height="346">
+ <h2>Ofrendas</h2>
+ <img src="imagenes/ofrendas.png" width="443" height="309"> 
+
+ <h2>Villa iluminada</h2>
+ <img src="imagenes/villa.jpg" width="445" height="342">
+
+ <h2>Feria de la Noche buena</h2>
+ <img src="imagenes/noche.jpg" width="400" height="306"> 
+ 
+ <h2>Feria del Atlixcayotl</h2>
+ <img src="imagenes/atlixcayotl.jpg" width="448" height="410"> 
+ 
+ <h2>Fiesta de reyes</h2>
+ <img src="imagenes/fiesta.jpg" width="451" height="340"> </div>
+  <div data-role="collapsible" data-content-theme="false">
+  <h1>Video de Atlixco</h1>
+<iframe width="450" height="315" src="https://www.youtube.com/embed/s0bbmzmAmr8" frameborder="0" allowfullscreen></iframe>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4>Turismo en Atlixco</h4>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Pueblo magico</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2><p>Fue nombrado Pueblo magico ya que el estado tiene una identidad turística muy propia: Es una ciudad que recibió el año pasado cerca de 12 millones de visitantes y alrededor de 3 millones de pernoctas</p>
+ <p>Este peculiar lugar goza de un clima privilegiado considerado el mejor clima del mundo, mismo que permite un desarrollo de la floricultura</p>
+<p>A su vez posee un gran patrimonio arquitectónico por lo cual se le dio el reconocimiento como Zona típica Monumental de Puebla.</p></h2>
+<img src="imagenes/pueblo.gif" width="382" height="349"> </div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4 align="center">Turismo en Atlixco</h4>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Donde se ubica</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+   <h2>Se ubica a 25 km de la ciudad de puebla,capital del estado y cuenta con dos importantes vias de acceso:La carretera federal 190 y la moderna Autopista via atlixcayotl.</h2>
+ <img src="imagenes/ubicacion.jpg" width="452" height="290"> </div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4 align="center">Turismo en Atlixco</h4>
+  </div>
+</div>
+</div>
+ <div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Datos del elaborador</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2><p>Yelissa Valverde Cazahuatl</p>
+ <p> 4to semestre Grupo G</p>
+ <p>Especialidad:Programación</p>
+ <p>Submodulo:Diseña Aplicaciones Moviles</p>
+ <p>CBTis No.16</p></h2>
+ <img src="imagenes/yeli.jpg" width="319" height="291"> </div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4 align="center">Turismo en Atlixco</h4>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</body>
+ </html>
